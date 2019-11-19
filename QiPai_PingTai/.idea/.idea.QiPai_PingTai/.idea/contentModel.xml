@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_QiPai_PingTai.-856854228.00" t="ExcludeRecursive" />
+    <e p="D:\play\QiPai_PingTai" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Game_Card" t="Include">
+          <e p="BaCay Game" t="Include">
+            <e p="BACAY_GameManager.cs" t="Include" />
+          </e>
+          <e p="Card.cs" t="Include" />
+          <e p="CardLogic.cs" t="Include" />
+          <e p="CooldownScript.cs" t="Include" />
+          <e p="GM" t="Include">
+            <e p="CardGameManager.cs" t="Include" />
+            <e p="MAUBINH_GameManager.cs" t="Include" />
+            <e p="PHOM_GameManager.cs" t="Include" />
+            <e p="SAM_GameManager.cs" t="Include" />
+            <e p="TLMN_GameManager.cs" t="Include" />
+          </e>
+          <e p="InGameUI.cs" t="Include" />
+          <e p="Lieng Game" t="Include">
+            <e p="LIENG_GameManager.cs" t="Include" />
+          </e>
+          <e p="MAUBINHTurn.cs" t="Include" />
+          <e p="MessageToast.cs" t="Include" />
+          <e p="PlayerInfoScript.cs" t="Include" />
+          <e p="SpecialEffect.cs" t="Include" />
+        </e>
+        <e p="_Game_Casino" t="Include">
+          <e p="BatDia.cs" t="Include" />
+          <e p="BauCua" t="Include">
+            <e p="BAUCUA_HistoryItemView.cs" t="Include" />
+            <e p="BAUCUA_HistoryListView.cs" t="Include" />
+            <e p="BAUCUAGameManager.cs" t="Include" />
+          </e>
+          <e p="BaucuaHistoryItem.cs" t="Include" />
+          <e p="CasinoGameManager.cs" t="Include" />
+          <e p="ChipButton.cs" t="Include" />
+          <e p="ChipSprite.cs" t="Include" />
+          <e p="PotInfo.cs" t="Include" />
+          <e p="UISellPot.cs" t="Include" />
+          <e p="XocDia" t="Include">
+            <e p="XOCDIA_HistoryItemView.cs" t="Include" />
+            <e p="XOCDIA_HistoryListView.cs" t="Include" />
+            <e p="XocdiaGameManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="_Game_DapHu" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="LoopingList.cs" t="Include" />
+            <e p="LoopingListItem.cs" t="Include" />
+            <e p="LoopingListResult.cs" t="Include" />
+            <e p="PopUpBehaviourScript.cs" t="Include" />
+            <e p="Select_Line.cs" t="Include" />
+            <e p="SlotGameManager.cs" t="Include" />
+            <e p="SlotMachine.cs" t="Include" />
+            <e p="TopMenuBehaviourScript.cs" t="Include" />
+            <e p="ZenLoopingList.cs" t="Include" />
+          </e>
+          <e p="UISlot.cs" t="Include" />
+        </e>
+        <e p="_InGame" t="Include">
+          <e p="ChipEffect.cs" t="Include" />
+          <e p="CoinBurst.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="SystemToast.cs" t="Include" />
+          <e p="TextEffext.cs" t="Include" />
+        </e>
+        <e p="_Minigame" t="Include">
+          <e p="BatDiaTaiXiu.cs" t="Include" />
+          <e p="MiniGames.cs" t="Include" />
+          <e p="MiniPoker.cs" t="Include" />
+          <e p="MiniPokerLoopingList.cs" t="Include" />
+          <e p="MiniPokerLoopingListResult.cs" t="Include" />
+          <e p="MiniSpin.cs" t="Include" />
+          <e p="MiniTaiXiu.cs" t="Include" />
+        </e>
+        <e p="AppWarp" t="Include">
+          <e p="BuildWarpHelper.cs" t="Include" />
+          <e p="GameBase.cs" t="Include" />
+          <e p="HTTPRequest.cs" t="Include" />
+          <e p="JSONObject.cs" t="Include" />
+          <e p="NotifyClass" t="Include">
+            <e p="ActionInLobbyData.cs" t="Include" />
+            <e p="GeneralMessageData.cs" t="Include" />
+            <e p="UpdatedMoneyData.cs" t="Include" />
+          </e>
+          <e p="OldWarpChannel.cs" t="Include" />
+          <e p="ResponseClass" t="Include">
+            <e p="AchievementData.cs" t="Include" />
+            <e p="BadData.cs" t="Include" />
+            <e p="CardData.cs" t="Include" />
+            <e p="CardProviderData.cs" t="Include" />
+            <e p="CashoutData.cs" t="Include" />
+            <e p="CashoutHistoryData.cs" t="Include" />
+            <e p="CasinoTurnData.cs" t="Include" />
+            <e p="ChatData.cs" t="Include" />
+            <e p="ConfigData.cs" t="Include" />
+            <e p="GameData.cs" t="Include" />
+            <e p="InitializeData.cs" t="Include" />
+            <e p="MAUBINH_Chi.cs" t="Include" />
+            <e p="MessageData.cs" t="Include" />
+            <e p="MinigameRootData.cs" t="Include" />
+            <e p="PHOM_TurnData.cs" t="Include" />
+            <e p="PromotionConfigData.cs" t="Include" />
+            <e p="RoomData.cs" t="Include" />
+            <e p="RootAgencyData.cs" t="Include" />
+            <e p="Slot_ResultData.cs" t="Include" />
+            <e p="SmsData.cs" t="Include" />
+            <e p="SystemMessageData.cs" t="Include" />
+            <e p="TaiXiuData.cs" t="Include" />
+            <e p="TopupData.cs" t="Include" />
+            <e p="TurnData.cs" t="Include" />
+            <e p="UserData.cs" t="Include" />
+            <e p="XengData.cs" t="Include" />
+          </e>
+          <e p="TcpClient" t="Include">
+            <e p="TcpClient.cs" t="Include" />
+            <e p="TCPSocket.cs" t="Include" />
+            <e p="WinRT" t="Include">
+              <e p="DataReaderWriterStream.cs" t="Include" />
+              <e p="TcpClient.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TemplateClass.cs" t="Include" />
+          <e p="WarpClient.cs" t="Include" />
+          <e p="WarpNotifyType.cs" t="Include" />
+          <e p="WarpRequest.cs" t="Include" />
+          <e p="WarpType.cs" t="Include" />
+          <e p="ZenDictionary.cs" t="Include" />
+        </e>
+        <e p="Base" t="Include">
+          <e p="Buttons" t="Include">
+            <e p="ButtonExtend.cs" t="Include" />
+          </e>
+          <e p="CountView.cs" t="Include" />
+          <e p="Effect_Win" t="Include">
+            <e p="Effect_Jackpot.cs" t="Include" />
+          </e>
+          <e p="HeadlineManager.cs" t="Include" />
+          <e p="InputFieldExtend.cs" t="Include" />
+          <e p="ObjectDraggingDetech.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="Avatar" t="Include">
+              <e p="Resources" t="Include">
+                <e p="PopupAvatars.cs" t="Include" />
+              </e>
+            </e>
+            <e p="AvatarView.cs" t="Include" />
+            <e p="CardView.cs" t="Include" />
+            <e p="ChatView.cs" t="Include" />
+            <e p="NumberAddEffect.cs" t="Include" />
+            <e p="PlayerChatListView.cs" t="Include" />
+            <e p="PlayerChatView.cs" t="Include" />
+            <e p="PlayerDetailView.cs" t="Include" />
+            <e p="PlayerMoneyView.cs" t="Include" />
+            <e p="PlayerView.cs" t="Include" />
+            <e p="PopupUserInfo.cs" t="Include" />
+          </e>
+          <e p="SampleData.cs" t="Include" />
+          <e p="SubmitFormExtend.cs" t="Include" />
+        </e>
+        <e p="Commons" t="Include">
+          <e p="DateTimeConverter.cs" t="Include" />
+          <e p="LongConverter.cs" t="Include" />
+        </e>
+        <e p="Demigiant" t="Include">
+          <e p="DemiLib" t="Include">
+            <e p="Core" t="Include">
+              <e p="DemiLib.xml" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DemiEditor.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="DOTween" t="Include">
+            <e p="DOTween43.xml" t="Include" />
+            <e p="DOTween46.xml" t="Include" />
+            <e p="DOTween50.xml" t="Include" />
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="DOTweenPro" t="Include">
+            <e p="DOTweenAnimation.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="DOTweenAnimationInspector.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="readme_DOTweenPro.txt" t="Include" />
+        </e>
+        <e p="Editor" t="Include">
+          <e p="AssetBundles.cs" t="Include" />
+          <e p="ClearConsole.cs" t="Include" />
+          <e p="EditorTools.cs" t="Include" />
+          <e p="FindMissing.cs" t="Include" />
+          <e p="OpenSceneEditor.cs" t="Include" />
+          <e p="PushwooshBuildManager.cs" t="Include" />
+        </e>
+        <e p="FacebookSDK" t="Include">
+          <e p="Examples" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ConsoleBase.cs" t="Include" />
+              <e p="LogView.cs" t="Include" />
+              <e p="MenuBase.cs" t="Include" />
+              <e p="SubMenus" t="Include">
+                <e p="AccessTokenMenu.cs" t="Include" />
+                <e p="AppEvents.cs" t="Include" />
+                <e p="AppInvites.cs" t="Include" />
+                <e p="AppLinks.cs" t="Include" />
+                <e p="AppRequests.cs" t="Include" />
+                <e p="DialogShare.cs" t="Include" />
+                <e p="GraphRequest.cs" t="Include" />
+                <e p="MainMenu.cs" t="Include" />
+                <e p="Pay.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="Google Play License Verification" t="Include">
+          <e p="LicenseVerification" t="Include">
+            <e p="classes_jar.txt" t="Include" />
+            <e p="JavaSource" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="build.xml" t="Include" />
+              <e p="proguard-project.txt" t="Include" />
+            </e>
+            <e p="RSA.cs" t="Include" />
+          </e>
+          <e p="LVL_Example" t="Include">
+            <e p="CheckLVLButton.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PlayServicesResolver" t="Include">
+          <e p="Editor" t="Include">
+            <e p="play-services-resolver_v1.2.95.0.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+          </e>
+          <e p="TCPSocket.cs" t="Include" />
+          <e p="UnityPurchasing" t="Include">
+            <e p="Editor" t="Include">
+              <e p="IAPButtonEditor.cs" t="Include" />
+              <e p="IAPGeneratedCredentials.cs.template" t="Include" />
+            </e>
+            <e p="script" t="Include">
+              <e p="ComboBox.cs" t="Include" />
+              <e p="Demo" t="Include">
+                <e p="DemoInventory.cs" t="Include" />
+              </e>
+              <e p="IAPButton.cs" t="Include" />
+              <e p="IAPDemo.cs" t="Include" />
+              <e p="PurchasingCheck.cs" t="Include" />
+            </e>
+          </e>
+          <e p="WebSocket.cs" t="Include" />
+        </e>
+        <e p="PopUp" t="Include">
+          <e p="HistoryItemView.cs" t="Include" />
+          <e p="HistoryListView.cs" t="Include" />
+          <e p="ListView_Achie" t="Include">
+            <e p="AchieItemView.cs" t="Include" />
+            <e p="AchieListView.cs" t="Include" />
+            <e p="DailyItemView.cs" t="Include" />
+          </e>
+          <e p="ListView_CashOut" t="Include">
+            <e p="CashOutHistoryItemView.cs" t="Include" />
+            <e p="CashOutHistoryListView.cs" t="Include" />
+            <e p="CashOutItemView.cs" t="Include" />
+            <e p="CashOutListView.cs" t="Include" />
+          </e>
+          <e p="ListView_Friends" t="Include">
+            <e p="FriendItemListView.cs" t="Include" />
+            <e p="FriendItemView.cs" t="Include" />
+            <e p="PopupFriends.cs" t="Include" />
+          </e>
+          <e p="ListView_Medal" t="Include">
+            <e p="ListView_Metal.cs" t="Include" />
+            <e p="MetalView_Item.cs" t="Include" />
+          </e>
+          <e p="ListView_Players" t="Include">
+            <e p="LobbyTitleItemView.cs" t="Include" />
+            <e p="LobbyTitleListView.cs" t="Include" />
+            <e p="PlayersArchHelper.cs" t="Include" />
+            <e p="PlayersInLeaderBoard.cs" t="Include" />
+            <e p="PlayersInRoomListView.cs" t="Include" />
+            <e p="PlayersItemView.cs" t="Include" />
+            <e p="PopUpPlayersInRoom.cs" t="Include" />
+          </e>
+          <e p="Lobbies" t="Include">
+            <e p="LobbyView.cs" t="Include" />
+            <e p="LobbyViewListView.cs" t="Include" />
+          </e>
+          <e p="Popup_LikeRate" t="Include">
+            <e p="PopupLikeRate.cs" t="Include" />
+          </e>
+          <e p="PopUp_Mes" t="Include">
+            <e p="MesItemView.cs" t="Include" />
+            <e p="MesListView.cs" t="Include" />
+            <e p="PopupAllMes.cs" t="Include" />
+            <e p="PopupSendMes.cs" t="Include" />
+          </e>
+          <e p="PopUp_Statistics" t="Include">
+            <e p="StatisticsItemView.cs" t="Include" />
+            <e p="StatisticsListView.cs" t="Include" />
+          </e>
+          <e p="PopUp_UpdateInfo" t="Include">
+            <e p="PopupUpdateInfo.cs" t="Include" />
+          </e>
+          <e p="PopUp_UpdatePass" t="Include">
+            <e p="PopupUpdatePass.cs" t="Include" />
+          </e>
+          <e p="Popup_VerifyPhone" t="Include">
+            <e p="PopupVerifyPhone.cs" t="Include" />
+          </e>
+          <e p="Rooms" t="Include">
+            <e p="RoomListView.cs" t="Include" />
+            <e p="RoomView.cs" t="Include" />
+          </e>
+          <e p="TopUp_Agency" t="Include">
+            <e p="TopUpAgencyItemView.cs" t="Include" />
+            <e p="TopUpAgencyListView.cs" t="Include" />
+          </e>
+          <e p="TopUp_Card" t="Include">
+            <e p="TopUpCardItemListView.cs" t="Include" />
+            <e p="TopUpCardItemView.cs" t="Include" />
+            <e p="TopUpCardSubmit.cs" t="Include" />
+            <e p="TopUpToggleCard.cs" t="Include" />
+          </e>
+          <e p="TopUp_Giftcode" t="Include">
+            <e p="GiftcodeView.cs" t="Include" />
+          </e>
+          <e p="TopUp_IAP" t="Include">
+            <e p="IAPView_Item.cs" t="Include" />
+            <e p="ListView_TopUp_IAP.cs" t="Include" />
+          </e>
+          <e p="TopUp_SMS" t="Include">
+            <e p="TopUpSMSItemView.cs" t="Include" />
+            <e p="TopUpSMSListView.cs" t="Include" />
+          </e>
+          <e p="TopUp_Transfer" t="Include">
+            <e p="TopUpTransfer.cs" t="Include" />
+          </e>
+          <e p="UserLogin" t="Include">
+            <e p="LoginView.cs" t="Include" />
+          </e>
+          <e p="UserRegister" t="Include">
+            <e p="RegisterView.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CanvasHelper.cs" t="Include" />
+          <e p="CoroutineQueue.cs" t="Include" />
+          <e p="DontDestroy.cs" t="Include" />
+          <e p="DragThresholdUtil.cs" t="Include" />
+          <e p="FullscreenSprite.cs" t="Include" />
+          <e p="gameTestManager.cs" t="Include" />
+          <e p="IGUIM.cs" t="Include" />
+          <e p="IGUIM_Casino.cs" t="Include" />
+          <e p="ImageSheet.cs" t="Include" />
+          <e p="LinkAcc.cs" t="Include" />
+          <e p="normalPayConterller.cs" t="Include" />
+          <e p="ObjectPool.cs" t="Include" />
+          <e p="OGUIM.cs" t="Include" />
+          <e p="PayData.cs" t="Include" />
+          <e p="PayloadHistory.cs" t="Include" />
+          <e p="PayLoadHistoryItemView.cs" t="Include" />
+          <e p="PayloadHistoryListView.cs" t="Include" />
+          <e p="PlayerSettings.cs" t="Include" />
+          <e p="PurchaserController.cs" t="Include" />
+          <e p="PushNotificator.cs" t="Include" />
+          <e p="QRCodePay.cs" t="Include" />
+          <e p="RC4.cs" t="Include" />
+          <e p="RSAPro.cs" t="Include" />
+          <e p="RsaToJava.cs" t="Include" />
+          <e p="TimeOutHelper.cs" t="Include" />
+          <e p="Ultility.cs" t="Include" />
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ImageEffects" t="Include">
+              <e p="AntialiasingEditor.cs" t="Include" />
+              <e p="BloomAndFlaresEditor.cs" t="Include" />
+              <e p="BloomEditor.cs" t="Include" />
+              <e p="CameraMotionBlurEditor.cs" t="Include" />
+              <e p="ColorCorrectionCurvesEditor.cs" t="Include" />
+              <e p="ColorCorrectionLookupEditor.cs" t="Include" />
+              <e p="CreaseShadingEditor.cs" t="Include" />
+              <e p="DepthOfFieldDeprecatedEditor.cs" t="Include" />
+              <e p="DepthOfFieldEditor.cs" t="Include" />
+              <e p="EdgeDetectionEditor.cs" t="Include" />
+              <e p="NoiseAndGrainEditor.cs" t="Include" />
+              <e p="SunShaftsEditor.cs" t="Include" />
+              <e p="TonemappingEditor.cs" t="Include" />
+              <e p="VignetteAndChromaticAberrationEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Effects" t="Include">
+            <e p="ImageEffects" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Antialiasing.cs" t="Include" />
+                <e p="Bloom.cs" t="Include" />
+                <e p="BloomAndFlares.cs" t="Include" />
+                <e p="BloomOptimized.cs" t="Include" />
+                <e p="Blur.cs" t="Include" />
+                <e p="BlurOptimized.cs" t="Include" />
+                <e p="CameraMotionBlur.cs" t="Include" />
+                <e p="ColorCorrectionCurves.cs" t="Include" />
+                <e p="ColorCorrectionLookup.cs" t="Include" />
+                <e p="ColorCorrectionRamp.cs" t="Include" />
+                <e p="ContrastEnhance.cs" t="Include" />
+                <e p="ContrastStretch.cs" t="Include" />
+                <e p="CreaseShading.cs" t="Include" />
+                <e p="DepthOfField.cs" t="Include" />
+                <e p="DepthOfFieldDeprecated.cs" t="Include" />
+                <e p="EdgeDetection.cs" t="Include" />
+                <e p="Fisheye.cs" t="Include" />
+                <e p="GlobalFog.cs" t="Include" />
+                <e p="Grayscale.cs" t="Include" />
+                <e p="ImageEffectBase.cs" t="Include" />
+                <e p="ImageEffects.cs" t="Include" />
+                <e p="MotionBlur.cs" t="Include" />
+                <e p="NoiseAndGrain.cs" t="Include" />
+                <e p="NoiseAndScratches.cs" t="Include" />
+                <e p="PostEffectsBase.cs" t="Include" />
+                <e p="PostEffectsHelper.cs" t="Include" />
+                <e p="Quads.cs" t="Include" />
+                <e p="ScreenOverlay.cs" t="Include" />
+                <e p="ScreenSpaceAmbientObscurance.cs" t="Include" />
+                <e p="ScreenSpaceAmbientOcclusion.cs" t="Include" />
+                <e p="SepiaTone.cs" t="Include" />
+                <e p="SunShafts.cs" t="Include" />
+                <e p="TiltShift.cs" t="Include" />
+                <e p="Tonemapping.cs" t="Include" />
+                <e p="Triangles.cs" t="Include" />
+                <e p="Twirl.cs" t="Include" />
+                <e p="VignetteAndChromaticAberration.cs" t="Include" />
+                <e p="Vortex.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="_Antialiasing" t="Include">
+                  <e p="DLAA.shader" t="Include" />
+                  <e p="FXAA2.shader" t="Include" />
+                  <e p="FXAA3Console.shader" t="Include" />
+                  <e p="FXAAPreset2.shader" t="Include" />
+                  <e p="FXAAPreset3.shader" t="Include" />
+                  <e p="NFAA.shader" t="Include" />
+                  <e p="SSAA.shader" t="Include" />
+                </e>
+                <e p="_BloomAndFlares" t="Include">
+                  <e p="Blend.shader" t="Include" />
+                  <e p="BlendForBloom.shader" t="Include" />
+                  <e p="BlendOneOne.shader" t="Include" />
+                  <e p="BlurAndFlares.shader" t="Include" />
+                  <e p="BrightPassFilter.shader" t="Include" />
+                  <e p="BrightPassFilter2.shader" t="Include" />
+                  <e p="LensFlareCreate.shader" t="Include" />
+                  <e p="MobileBloom.shader" t="Include" />
+                  <e p="MobileBlur.shader" t="Include" />
+                  <e p="MultiPassHollywoodFlares.shader" t="Include" />
+                  <e p="SeparableBlurPlus.shader" t="Include" />
+                  <e p="VignetteShader.shader" t="Include" />
+                </e>
+                <e p="_DepthOfField" t="Include">
+                  <e p="Bokeh34.shader" t="Include" />
+                  <e p="DepthOfField34.shader" t="Include" />
+                  <e p="DepthOfFieldDX11.shader" t="Include" />
+                  <e p="DepthOfFieldScatter.shader" t="Include" />
+                  <e p="SeparableBlur.shader" t="Include" />
+                  <e p="SeparableWeightedBlurDof34.shader" t="Include" />
+                  <e p="TiltShiftHdrLensBlur.shader" t="Include" />
+                </e>
+                <e p="BlendModesOverlay.shader" t="Include" />
+                <e p="BlurEffectConeTaps.shader" t="Include" />
+                <e p="CameraMotionBlur.shader" t="Include" />
+                <e p="CameraMotionBlurDX11.shader" t="Include" />
+                <e p="ChromaticAberrationShader.shader" t="Include" />
+                <e p="ColorCorrection3DLut.shader" t="Include" />
+                <e p="ColorCorrectionCurves.shader" t="Include" />
+                <e p="ColorCorrectionCurvesSimple.shader" t="Include" />
+                <e p="ColorCorrectionEffect.shader" t="Include" />
+                <e p="ColorCorrectionSelective.shader" t="Include" />
+                <e p="Contrast Stretch" t="Include">
+                  <e p="Adaptation.shader" t="Include" />
+                  <e p="Apply.shader" t="Include" />
+                  <e p="Luminance.shader" t="Include" />
+                  <e p="MinMaxReduction.shader" t="Include" />
+                </e>
+                <e p="ContrastComposite.shader" t="Include" />
+                <e p="ConvertDepth.shader" t="Include" />
+                <e p="CreaseApply.shader" t="Include" />
+                <e p="EdgeDetectNormals.shader" t="Include" />
+                <e p="FisheyeShader.shader" t="Include" />
+                <e p="frag_ao.cginc" t="Include" />
+                <e p="GlobalFog.shader" t="Include" />
+                <e p="GrayscaleEffect.shader" t="Include" />
+                <e p="MotionBlur.shader" t="Include" />
+                <e p="MotionBlurClear.shader" t="Include" />
+                <e p="NoiseAndGrain.shader" t="Include" />
+                <e p="NoiseAndGrainDX11.shader" t="Include" />
+                <e p="NoiseEffectShaderRGB.shader" t="Include" />
+                <e p="NoiseEffectShaderYUV.shader" t="Include" />
+                <e p="PrepareSunShaftsBlur.shader" t="Include" />
+                <e p="RadialBlur.shader" t="Include" />
+                <e p="ScreenSpaceAmbientObscurance.shader" t="Include" />
+                <e p="ScreenSpaceRaytrace.cginc" t="Include" />
+                <e p="SepiaToneEffect.shader" t="Include" />
+                <e p="ShowAlphaChannel.shader" t="Include" />
+                <e p="SimpleClear.shader" t="Include" />
+                <e p="SSAOShader.shader" t="Include" />
+                <e p="SunShaftsComposite.shader" t="Include" />
+                <e p="Tonemapper.shader" t="Include" />
+                <e p="TwirlEffect.shader" t="Include" />
+                <e p="VignettingShader.shader" t="Include" />
+                <e p="VortexEffect.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="ZenExts" t="Include">
+          <e p="Frame Rate Counter" t="Include">
+            <e p="FPSCounter.cs" t="Include" />
+            <e p="FPSDisplay.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="CanvaxUIExtension.cs" t="Include" />
+            <e p="ImageHelper.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+            <e p="UILogView.cs" t="Include" />
+            <e p="ZenExtension.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="HorizontalScrollSnap.cs" t="Include" />
+            <e p="UIAnimation.cs" t="Include" />
+            <e p="UIButton.cs" t="Include" />
+            <e p="UIDrawCircle.cs" t="Include" />
+            <e p="UIListView.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+            <e p="UIMessageBox.cs" t="Include" />
+            <e p="UIPopupTabs.cs" t="Include" />
+            <e p="UIRadialLayout.cs" t="Include" />
+            <e p="UISlider.cs" t="Include" />
+            <e p="UISplash.cs" t="Include" />
+            <e p="UISplash_AssetBundle.cs" t="Include" />
+            <e p="UIToast.cs" t="Include" />
+            <e p="UIToggle.cs" t="Include" />
+            <e p="UIToggleGroup.cs" t="Include" />
+          </e>
+        </e>
+        <e p="维护界面" t="Include">
+          <e p="MaintenanceConterller.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="QiPai_PingTai.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

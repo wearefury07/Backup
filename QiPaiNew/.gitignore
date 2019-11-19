@@ -1,0 +1,55 @@
+Layout/
+UWP/
+Library/
+Temp/
+obj/
+Assets/FacebookSDK/
+/.vs/368vip-client/v15/.suo
+/.vs/368vip-client/v15/Server/sqlite3/db.lock
+/.vs/368vip-client/v15/Server/sqlite3/storage.ide
+/.vs/368vip-client/v15/Server/sqlite3/storage.ide-shm
+/.vs/368vip-client/v15/Server/sqlite3/storage.ide-wal
+/368vip-client.Editor.Plugins.csproj
+/368vip-client.Editor.csproj
+/368vip-client.Plugins.csproj
+/368vip-client.csproj
+/368vip-client.sln
+/368vip-client.userprefs
+/Assembly-CSharp-Editor-firstpass.csproj
+/Assembly-CSharp-Editor.csproj
+/Assembly-CSharp-firstpass.csproj
+/Assembly-CSharp.csproj
+/Remake Again Win360.Editor.Plugins.csproj
+/Remake Again Win360.Editor.csproj
+/Remake Again Win360.Plugins.csproj
+/Remake Again Win360.csproj
+/Remake Again Win360.sln
+/.vs/Remake Again Win360/v15/.suo
+/.vs/Remake Again Win360/v15/Server/sqlite3/db.lock
+/.vs/Remake Again Win360/v15/Server/sqlite3/storage.ide
+/.vs/win360/DesignTimeBuild/.dtbcache
+/.vs/win360/v15/.suo
+/.vs/win360/v15/Server/sqlite3/db.lock
+/.vs/win360/v15/Server/sqlite3/storage.ide
+/.vs/win360/v15/Server/sqlite3/storage.ide-shm
+/.vs/win360/v15/Server/sqlite3/storage.ide-wal
+/win360.Editor.Plugins.csproj
+/win360.Editor.csproj
+/win360.Plugins.csproj
+/win360.csproj
+/win360.sln
+/Unity.Analytics.DataPrivacy.csproj
+/Unity.CollabProxy.Editor.csproj
+/Unity.PackageManagerUI.Editor.csproj
+/Unity.TextMeshPro.Editor.csproj
+/Unity.TextMeshPro.csproj
+/ca_do_6.Editor.Plugins.csproj
+/ca_do_6.Editor.csproj
+/ca_do_6.Plugins.csproj
+/ca_do_6.csproj
+/ca_do_6.sln
+/.vs/ca_do_6/v16/.suo
+/.vs/ca_do_6/v16/Server/sqlite3/db.lock
+/.vs/ca_do_6/v16/Server/sqlite3/storage.ide
+/.vs/ca_do_6/v16/Server/sqlite3/storage.ide-shm
+/.vs/ca_do_6/v16/Server/sqlite3/storage.ide-wal

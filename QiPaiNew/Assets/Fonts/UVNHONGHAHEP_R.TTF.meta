@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d1a01932669d2434aa5208fdd79dcb90
+timeCreated: 1487830583
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: UVN Hong Ha Hep
+  fontNames:
+  - UVN Hong Ha Hep
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2ba89801a1ef0dc4f9f8c88fcc675f7f, type: 3}
+  - {fileID: 12800000, guid: 760c079413bf1334dae5db6d74bc6251, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

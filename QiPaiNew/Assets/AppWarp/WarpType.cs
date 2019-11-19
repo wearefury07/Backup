@@ -1,0 +1,399 @@
+﻿using System.Collections.Generic;
+
+public enum WarpConnectionState
+{
+    DISCONNECTED = 0,
+    CONNECTING = 1,
+    CONNECTED = 2,
+    RECOVERING = 3,
+    RECOVERED = 4,
+}
+
+public enum WarpContentTypeCode
+{
+    FLAT_STRING = 0,
+    BINARY = 1,
+    JSON = 2,
+    MESSAGE_PACK = 3,
+}
+
+/// <summary>
+/// 充值类型
+/// </summary>
+public enum UpdateMoneyTypeCode
+{
+    CC = 0,
+    SMS = 1,
+    CARD = 2,
+    IAP = 3,
+    ADMIN = 4,
+    BONUS = 5,
+    VIDEO_ADS = 6,
+    INVITE_FB = 7,
+    TRANSFER_GOLD = 8,
+    TRANSFER_GOLD_KOIN = 9,
+    MESSAGE_CLAIM = 10,
+    IGAME_CHARGING = 11,
+    BY_GIFT_CODE = 12,
+	BY_LIKE_RATE = 13,
+
+    pay_qr=14, //扫码
+    rcgcard_pc=15, //充值卡
+    upacp_pc=16 //网银 
+}
+
+public enum AchievementType
+{
+    WIN = 0,
+    LOSS = 1,
+    DRAW = 2,
+    PLAY = 3,
+    PUNISH_CARD_2 = 4,
+    TAKE_GA = 5, // Ăn gà
+    WIN_LIENG = 6, // Thắng liêng
+    SAP_LANG = 7, // Sập làng
+    UH_KKK = 8, // Ù K
+    SAM_RESPONSIBILITY = 9, // Báo sâm
+    TAKE_OWNER = 10, // Cướp chương
+    TO_WHITE = 11, // Tới trắng
+    PUT_3 = 12, // Đút ba bích
+    WIN_TEN_1A = 13, // Mười át cụ
+    WIN_SAP = 14, // Thắng sáp
+    SAM_LAST_CHI = 15, // Sám chi cuối
+    UH_TRON = 16, // Ù tròn
+}
+
+public enum ConfigType
+{
+    RATE_GOLD_KOIN = 0, // rate and min
+    REWARD_CONFIG = 1, // link and version
+    TRANSFER_GOLD = 2, // minGold, maxGold, rate
+	CASHOUT_CHANNEL = 3, // userMin, userPerDay, maxPerDay, status, userMax
+	LIKE_RATE_REWARD = 4, // like fb, rate app 
+}
+
+public enum WarpMessageTypeCode
+{
+    REQUEST = 0,
+    RESPONSE = 1,
+    UPDATE = 2
+}
+
+public enum WarpRequestTypeCode
+{
+    AUTH = 1,
+    REGISTER = 2,
+    FORGOT_PASSWORD = 3,
+    SIGNOUT = 4,
+    GET_USER_INFO = 5,
+    UPDATE_AVATAR = 6,
+    CLAIM_REWARD = 7,
+    GET_CONFIG = 8,
+    // MISSING FROM 9
+
+    JOIN_LOBBY = 10,
+    SUBSCRIBE_LOBBY = 11,
+    UNSUBSCRIBE_LOBBY = 12,
+    LEAVE_LOBBY = 13,
+    LIST_LOBBIES = 14,
+    GET_LIVE_LOBBY_INFO = 15,
+    GET_LOBBY_SUBSCRIBERS = 16,
+    // MISSING FROM 17 - 19
+
+    CREATE_ROOM = 20,
+    GET_ROOM_CONFIG = 21,
+    JOIN_ROOM = 22,
+    SUBSCRIBE_ROOM = 23,
+    UNSUBSCRIBE_ROOM = 24,
+    LEAVE_ROOM = 25,
+    CHAT = 26,
+    GET_ROOMS = 27,
+    UPDATE_PEERS = 28,    // Didn't manipule 
+
+    GET_ROOM_INFO = 29,
+    SEND_KEEP_ALIVE = 30,
+
+    SEND_WEIHU=31,
+    // MISSING FROM 31 - 39
+
+    GET_USER_ACHIEVEMENT = 40,
+    ADD_FRIENDS = 41,
+    GET_FRIENDS = 42,
+    SEND_MESSAGE = 43,
+    GET_MESSAGES = 44,
+    UPDATE_MESSAGE = 45,
+    CHANGE_PASS = 46,
+    UPDATE_INFO = 47,
+    CHANGE_OWNER = 48,
+    READ_MESSAGE = 49,
+    DELETE_MESSAGES = 50,
+    INVITE_TO_PLAY = 51,
+    UPDATE_ROOM_INFO = 52,
+    GET_SYSTEM_MESSAGE = 53,
+    GET_SMS_CONFIG = 54,
+    CARD_TOPUP = 55,
+    GET_KOIN_EXCHANGE = 56,
+    VERSION_CONFIGURE = 57,
+    BUY_COIN = 58,
+    SELL_COIN = 59,
+    CURRENT_COIN = 60,
+    TOP_USERS = 61,
+    TOP_LEVEL_BY_GAME = 62,
+    CHECK_SPEED = 63,
+    EMOTION = 64,
+    GET_USER_STAT = 65,
+    GET_DAILY_MISSION = 66,
+    GET_DAILY_BONUS = 67,
+    GET_ACHIEVEMENT_BONUS = 68,
+    GET_USER_MESSAGE_COUNT = 69,
+    CURRENT_DAILY_LOGIN = 70,
+    PROMOTION_CONFIGURE = 71,
+    FEEDBACK = 72,
+    GLOBAL_CHAT = 73,
+    SCRATCH_LOTTERY = 74,
+    LINK_FB = 76,
+    LINK_ACC = 77,
+    VIP_SETTING = 78,
+    EXCHANGE_REWARD = 79,
+    IAP_TOPUP = 80,
+    INVITE_FB = 81,
+    FREE_CHIP_CFG = 82,
+    DELETE_FRIEND = 83,
+    GET_TOP_ALLLEVEL = 84,
+    CHAT_LOBBY = 85,
+    GOLD_TO_KOIN = 86,
+    CASHOUT = 87,
+    UPDATE_MOBILE = 88,
+    TOP_GOLD = 89,
+    PAYMENT_HISTORY = 90,
+    CASHOUT_HISTORY = 91,
+    REWARD_LIST = 92,
+    LIST_GAMES = 93,
+    SUBSCRIBE_GAME = 94,
+    UNSUBSCRIBE_GAME = 95,
+    TAI_XIU = 96,
+    LOTTERY = 99,
+    FOOTBALL = 100,
+    TRANSFER_GOLD = 101,
+
+    GIFT_CODE = 103,
+    GET_CARD_PROVIDER_CONFIG = 104,
+    USER_VERIFY_REQUEST = 105,
+    GET_CASHOUT_DETAIL = 106,
+	GET_LOBBY_INFO_CONFIG = 107,
+	GET_RATE_REWARD = 108,
+	GET_LIKE_REWARD = 109,
+
+    PAY_LOAD = 112,//充值
+    PAY_LOAD_HISTROAY = 113,//充值记录
+    PAY_OFFLINE=114,//线下支付
+
+    KICK_USER = 200,
+    SET_READY = 201,
+    START_MATCH = 202,
+    SET_UNREADY = 205,
+    GET_PLAYERS_IN_ROOM = 220,
+    START_SLOT_MACHINE = 221,
+    RESULT_DOUBLE_WINNING = 222,
+    START_DOUBLE_WINNING = 223,
+    RESULT_SLOT_MACHINE = 224,
+}
+
+public enum WarpNotifyTypeCode
+{
+    JOIN_ROOM = 1,
+    LEAVE_ROOM = 2,
+    ADD_FRIENDS = 3,
+    SEND_MESSAGE = 4,
+    KICK_USER = 5,
+    START_MATCH = 6,
+    SET_READY = 7,
+    UPDATE_MONEY = 8,
+    ROOM_OWNER_CHANGED = 9,
+    // MISSING FROM 10 - 13
+
+    ACTIONS_IN_LOBBY = 14,
+    SET_UNREADY = 15,
+    CHIP_CHANGE = 16,
+    PASS_OWNER = 17,
+    USER_SUBSCRIBE_ROOM = 18,
+    USER_UNSUBSCRIBE_ROOM = 19,
+    CHAT_NOTIFICATION = 20,
+    INVITE_TO_PLAY = 21,
+    // MISSING 22
+
+    SUBSCRIBER_TO_PLAYER = 23,
+
+    ROOM_INFO_CHANGE = 24,
+    GENERAL_MESSAGE_NOTIFICATION = 25,
+    // MISSING FROM 26 - 45
+
+    BONUS_INFO = 46,
+    NOTIFY_SESSION_EXPIRED = 47,
+    NEW_CHAT_NOTIFICATION = 49,
+    LEVEL_UP = 50,
+    DAILY_MISSION_COMPLETE = 51,
+    ACHIEVEMENT_UNLOCK = 52,
+    WORLD_CHAT_NOTIFICATION = 53,
+    CLAIM_BONUS = 54,
+    TAI_XIU = 59,
+    NOTIFY_HEADLINE_MESSAGE = 60,
+
+    NOTIFY_MINI_ROOM_CHANGED = 62,
+    NOTIFY_CAOTHAP_END_MATCH = 72,
+    NOTIFY_AUTO_KICK = 75,
+    NOTIFY_ADD_FRIEND = 76,
+    NOTIFY_NEW_MESSAGE = 77,
+    USER_VERIFY_REQUEST = 105,
+}
+
+public enum WarpResponseResultCode
+{
+    SUCCESS = 0,
+    AUTH_ERROR = 1,
+    INVALID_SESSION = 2,
+    USER_IS_LOCK = 3,
+    BAD_REQUEST = 4,
+    REG_USER_EXIST = 5,
+    UNKNOWN_ERROR = 6,
+    REG_PASS_LEN_WRONG = 7,
+    OLD_NEW_EQ_WRONG = 8,
+    REG_USER_EQ_PASS = 9,
+    REG_OLD_PASS_WRONG = 10,   
+    INVALID_USER = 11,
+    ROOM_STARTED = 12,
+    NOT_ROOM_OWNER = 13,
+    NOT_IN_THE_ROOM = 14,
+    INVALID_CHIP = 15,
+    INVALID_MAX_PLAYER = 16,
+    INVALID_ROOM_NAME = 17,
+    INVALID_PASSWORD = 18,
+
+    INVALID_REG_USERNAME = 19,
+    NO_MOBILE_NUMBER = 20,
+    MOBILE_NOT_EQUAL = 21,
+    INVALID_CHIP_MAX_BET = 22,
+    SET_BET_IN_READY_MODE = 23,
+    INVALID_CHIP_MIN_BET = 24,
+    INVALID_MAX_USER_PER_DEVICE = 25,
+    INVALID_CLAIM_VALUE = 26,
+    ALREADY_CLAIMED = 27,
+    INVALID_USERNAME = 28,
+    INVALID_GOLD = 29,
+    INVALID_PROVIDER = 30,
+    INVALID_BALANCE = 31,
+    MAX_POT = 32,
+    TRANSFER_IN_PLAY_MOD = 33,
+    TRANSFER_SMALLER_MIN_VALUE = 34,
+    TRANSFER_OVER_MAX_VALUE = 35,
+    CASHOUT_INVALID_BALANCE = 31,
+    CASHOUT_LOCKED = 36,
+    CASHOUT_ITEM_NOT_EXIST = 37,
+    CASHOUT_OVER_AMOUNT_DAY = 38,
+    CASHOUT_OVER_USER_AMOUNT_DAY = 39,
+    CASHOUT_SMALLER_MIN_VALUE = 40,
+    CASHOUT_OVER_MAX_VALUE = 41,
+    USER_LOGGED = 42,
+    GIFT_CODE_NOT_EXITS = 43,
+	GIFT_CODE_USED = 44,    
+	USER_NOT_VERIFY = 45,
+	CASHOUT_OVER_AMOUNT_LIMIT = 46,
+	CASHOUT_OVER_TIMES_LIMIT = 47,
+	CASHOUT_OVER_TIME_DELAY = 48,
+    USER_HAS_VERIFIED = 49,
+    MOBILE_VERIFIED_OTHER = 50,
+	INVALID_CHIP_MAX_BET_PER_POT = 51,
+
+    INVALID_CARD_PROVIDER = 55,
+
+
+    NOT_INTERNET_CONNECTION = 100,
+}
+
+public enum LoginType
+{
+    NONE = 0,
+    USER_PASS = 1,
+    FACEBOOK = 2,
+    REGISTER = 3,
+    FORGET_PASS = 4,
+    QUICK_LOGIN = 5
+}
+
+public enum SystemMessageType
+{
+    ALL_MESSAGE = -1,
+    PROMOTION_MESSAGE = 0,
+    ADMIN_MESSAGE = 1,
+    RULES_MESSAGE = 2,
+    HEADLINE_MESSAGE = 3,
+}
+
+public enum FeedbackType
+{
+    USER_INTERFACE = 0,
+    GAME = 1,
+    ACCOUNT = 2,
+    OTHER = 3,
+}
+
+public enum ClaimType
+{
+    CONSECUTIVE_LOGIN = 0,
+    MESSAGE = 1,
+    DAILY = 2,
+    ACHIEVEMENT = 3,
+}
+
+public enum MesType
+{
+    NORMAL = 0,
+    CLAIMABLE = 1,
+    ADMIN = 2,
+    USER = 3,
+}
+
+public enum ContenDisplayType
+{
+    TEXT = 0,
+    LINK = 1,
+}
+
+public enum CastOutStatus
+{
+    NEW = 0,
+    ACCEPT = 1,
+    RECEIVE = 2,
+    REJECT = 3,
+    ERROR = 4,
+}
+
+public enum MINIGAME
+{
+    UNSUB = 6,
+    SUBSCRIBE_ROOM = 23,
+    UNSUBSCRIBE_ROOM = 24,
+    START_MATCH = 202,
+    ADD_BET = 214,
+    CLEAR_BET = 219,
+    GET_JACKPOT_HISTORY = 221,
+    GET_USER_HISTORY = 222,
+    CAOTHAP_END_MATCH = 233,
+}
+
+public enum MINIGAMETAIXIU
+{
+    UPDATE_INFO = 1,
+    START_MATCH = 2,
+    END_MATCH = 3,
+    UNSUB = 6,
+    ADD_BET = 214,
+}
+
+/// <summary>
+/// 支付类型
+/// </summary>
+public enum PayType
+{
+
+}
